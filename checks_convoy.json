@@ -1,0 +1,2907 @@
+[
+  {
+    "stats": {
+      "total": 371,
+      "totalSuccessful": 371,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpIYXNPd25lci82MDc5",
+      "name": "Owner Defined With Contact Info",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/6079",
+      "args": {
+        "contact_method": "SLACK",
+        "require_contact_method": true
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE1NzA",
+        "name": "All Projects"
+      },
+      "__typename": "ServiceOwnershipCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 371,
+      "totalSuccessful": 368,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpIYXNSZXBvc2l0b3J5LzMwNzEy",
+      "name": "Repository Defined",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/30712",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": null,
+      "__typename": "RepositoryIntegratedCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 86,
+      "totalSuccessful": 83,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTA5NDI",
+      "name": "Postgres Engine Version",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/10942",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMTQ0Mw",
+        "name": "Observability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzMwMA",
+        "name": "Database - Typescript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 64,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTg3OA",
+      "name": "Change Success Rate is over 80%",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1878",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 24,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjAyNA",
+      "name": "Contains Cypress \"spec\" files for E2E testing",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2024",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUyOQ",
+        "name": "Web Platform - Lynx apps + Template"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 62,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzkyNA",
+      "name": "APM Tracing Enabled",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3924",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 61,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzczOA",
+      "name": "All Terraform up-to-date.",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3738",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 12,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzE0Ng",
+      "name": "ML Model uses ConvoyML Canaries when deploying",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3146",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4NA",
+        "name": "Machine Learning Models - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 371,
+      "totalSuccessful": 262,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTE2Mw",
+      "name": "Secrets In Code",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1163",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzY4NQ",
+        "name": "Security - Secrets"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 23,
+      "totalSuccessful": 16,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjgzNA",
+      "name": "Minimum Python Version >= 3.7 in pyproject.toml",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2834",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzY4MA",
+        "name": "Deprecations - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 23,
+      "totalSuccessful": 15,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTIyMQ",
+      "name": "Owning Team - OpsLevel.yml",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1221",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzk3Mw",
+        "name": "Common - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 173,
+      "totalSuccessful": 102,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODk5",
+      "name": "Uses the recommended version of Node.js",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/899",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI5OQ",
+        "name": "Common - TypeScript Project"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 23,
+      "totalSuccessful": 13,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjgzNQ",
+      "name": "ML Model Base Image > Python 3.6",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2835",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzY4MA",
+        "name": "Deprecations - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 41,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpHZW5lcmljLzQ4MTQ",
+      "name": "PagerDuty - Schedule Exists",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/4814",
+      "args": {
+        "jq": ".escalation_policies[] | select(.services| .[].summary == $ctx.alias) | .escalation_rules[0].targets[] | select(.type == \"schedule_reference\") | any",
+        "payload": {
+          "more": true,
+          "limit": 25,
+          "total": null,
+          "offset": 0,
+          "escalation_policies": [
+            {
+              "id": "PECFSCN",
+              "name": "B: Boost",
+              "self": "https://api.pagerduty.com/escalation_policies/PECFSCN",
+              "type": "escalation_policy",
+              "teams": [
+                {
+                  "id": "P2CBUS6",
+                  "self": "https://api.pagerduty.com/teams/P2CBUS6",
+                  "type": "team_reference",
+                  "summary": "Boost",
+                  "html_url": "https://convoy.pagerduty.com/teams/P2CBUS6"
+                }
+              ],
+              "summary": "B: Boost",
+              "html_url": "https://convoy.pagerduty.com/escalation_policies/PECFSCN",
+              "services": [
+                {
+                  "id": "PA5HUVN",
+                  "self": "https://api.pagerduty.com/services/PA5HUVN",
+                  "type": "service_reference",
+                  "summary": "Boost DataDog Alerts",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/PA5HUVN"
+                },
+                {
+                  "id": "PQYLFUW",
+                  "self": "https://api.pagerduty.com/services/PQYLFUW",
+                  "type": "service_reference",
+                  "summary": "broker-service",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/PQYLFUW"
+                },
+                {
+                  "id": "P4L9KUO",
+                  "self": "https://api.pagerduty.com/services/P4L9KUO",
+                  "type": "service_reference",
+                  "summary": "broker-web",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/P4L9KUO"
+                },
+                {
+                  "id": "PV3SGC9",
+                  "self": "https://api.pagerduty.com/services/PV3SGC9",
+                  "type": "service_reference",
+                  "summary": "serverless-boost-ftp-auth-fn",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/PV3SGC9"
+                },
+                {
+                  "id": "PZR6ZXT",
+                  "self": "https://api.pagerduty.com/services/PZR6ZXT",
+                  "type": "service_reference",
+                  "summary": "Shipotle|3P Brokering",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/PZR6ZXT"
+                }
+              ],
+              "num_loops": 2,
+              "privilege": null,
+              "description": "",
+              "escalation_rules": [
+                {
+                  "id": "PBIWCVG",
+                  "targets": [
+                    {
+                      "id": "PMTMY9C",
+                      "self": "https://api.pagerduty.com/schedules/PMTMY9C",
+                      "type": "schedule_reference",
+                      "summary": "3p-broker",
+                      "html_url": "https://convoy.pagerduty.com/schedules/PMTMY9C"
+                    },
+                    {
+                      "id": "P1V297E",
+                      "self": "https://api.pagerduty.com/schedules/P1V297E",
+                      "type": "schedule_reference",
+                      "summary": "Boost Shadow",
+                      "html_url": "https://convoy.pagerduty.com/schedules/P1V297E"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                },
+                {
+                  "id": "P369CBM",
+                  "targets": [
+                    {
+                      "id": "P1TTTZX",
+                      "self": "https://api.pagerduty.com/schedules/P1TTTZX",
+                      "type": "schedule_reference",
+                      "summary": "3p-broker-secondary",
+                      "html_url": "https://convoy.pagerduty.com/schedules/P1TTTZX"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                },
+                {
+                  "id": "PPKP3FY",
+                  "targets": [
+                    {
+                      "id": "PH8HACM",
+                      "self": "https://api.pagerduty.com/users/PH8HACM",
+                      "type": "user_reference",
+                      "summary": "Anila Anitha",
+                      "html_url": "https://convoy.pagerduty.com/users/PH8HACM"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                },
+                {
+                  "id": "P9O1338",
+                  "targets": [
+                    {
+                      "id": "P1J4M8H",
+                      "self": "https://api.pagerduty.com/users/P1J4M8H",
+                      "type": "user_reference",
+                      "summary": "Madhu Dutta",
+                      "html_url": "https://convoy.pagerduty.com/users/P1J4M8H"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                },
+                {
+                  "id": "P5BD2QI",
+                  "targets": [
+                    {
+                      "id": "PC4PT4F",
+                      "self": "https://api.pagerduty.com/users/PC4PT4F",
+                      "type": "user_reference",
+                      "summary": "Dorothy Li",
+                      "html_url": "https://convoy.pagerduty.com/users/PC4PT4F"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                }
+              ],
+              "on_call_handoff_notifications": "if_has_services"
+            }
+          ]
+        },
+        "result_msg": "{% if check.passed %}\n### Check passed\nService **{{ ctx.alias }}** has an On-Call Schedule assigned in the\nfirst level of the assigned escalation policy.\n{% else %}\n### Check failed\nService **{{ ctx.alias }}** does not have an On-Call Schedule\nassigned in the first level of the assigned escalation policy.\n{{ data.escalation_policies | map: \"services\" | where: \"summary\", ctx.alias | map: \"html_url\" }}\n{% endif %}",
+        "query_params": "alias[]=service1&alias[]=service2",
+        "service_selector": ".escalation_policies[].services[].summary"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMTQ0Mw",
+        "name": "Observability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "CustomEventCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 142,
+      "totalSuccessful": 67,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTU1MQ",
+      "name": "High Vulnerabilities",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1551",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4Mw",
+        "name": "Security - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 29,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpHZW5lcmljLzQ4MjU",
+      "name": "PagerDuty - 3 Tier",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/4825",
+      "args": {
+        "jq": ".escalation_policies[] | select(.services| .[].summary == $ctx.alias) | .escalation_rules | length >=3",
+        "payload": {
+          "more": false,
+          "limit": 100,
+          "total": null,
+          "offset": 0,
+          "escalation_policies": [
+            {
+              "id": "P80XEJK",
+              "name": "Infrastructure - Jobs Model",
+              "self": "https://api.pagerduty.com/escalation_policies/P80XEJK",
+              "type": "escalation_policy",
+              "teams": [
+                {
+                  "id": "P6Q0AYZ",
+                  "self": "https://api.pagerduty.com/teams/P6Q0AYZ",
+                  "type": "team_reference",
+                  "summary": "Infrastructure - Jobs Model",
+                  "html_url": "https://convoy.pagerduty.com/teams/P6Q0AYZ"
+                }
+              ],
+              "summary": "Infrastructure - Jobs Model",
+              "html_url": "https://convoy.pagerduty.com/escalation_policies/P80XEJK",
+              "services": [
+                {
+                  "id": "PEIQ66H",
+                  "self": "https://api.pagerduty.com/services/PEIQ66H",
+                  "type": "service_reference",
+                  "summary": "jobs-search-service",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/PEIQ66H"
+                },
+                {
+                  "id": "POD1SM8",
+                  "self": "https://api.pagerduty.com/services/POD1SM8",
+                  "type": "service_reference",
+                  "summary": "jobs-service",
+                  "html_url": "https://convoy.pagerduty.com/service-directory/POD1SM8"
+                }
+              ],
+              "num_loops": 5,
+              "privilege": null,
+              "description": "",
+              "escalation_rules": [
+                {
+                  "id": "PJDHMNE",
+                  "targets": [
+                    {
+                      "id": "PKKLOM4",
+                      "self": "https://api.pagerduty.com/schedules/PKKLOM4",
+                      "type": "schedule_reference",
+                      "summary": "Infrastructure - Jobs Model",
+                      "html_url": "https://convoy.pagerduty.com/schedules/PKKLOM4"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 20
+                },
+                {
+                  "id": "PB1JUWM",
+                  "targets": [
+                    {
+                      "id": "PS4G84N",
+                      "self": "https://api.pagerduty.com/users/PS4G84N",
+                      "type": "user_reference",
+                      "summary": "Kevin Su",
+                      "html_url": "https://convoy.pagerduty.com/users/PS4G84N"
+                    }
+                  ],
+                  "escalation_delay_in_minutes": 30
+                }
+              ],
+              "on_call_handoff_notifications": "if_has_services"
+            }
+          ]
+        },
+        "result_msg": "{% if check.passed %}\n### Check passed\nService **{{ ctx.alias }}** has an escalation policy that is at least 3 tiered.\n{% else %}\n### Check failed\nService **{{ ctx.alias }}** does not have an escalation policy that is at least 3 tiered.\n{{ data.escalation_policies | map: \"services\" | where: \"summary\", ctx.alias | map: \"html_url\" }}\n{% endif %}",
+        "query_params": "alias[]=service1&alias[]=service2",
+        "service_selector": ".escalation_policies[].services[].summary"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMTQ0Mw",
+        "name": "Observability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "CustomEventCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 23,
+      "totalSuccessful": 8,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzAyMw",
+      "name": "Python Pulls Secrets from SecretsManager",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3023",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzk3Mw",
+        "name": "Common - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 142,
+      "totalSuccessful": 36,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTU1MA",
+      "name": "Critical Vulnerabilities",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1550",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4Mw",
+        "name": "Security - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 74,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpBbGVydFNvdXJjZVVzYWdlLzQ0MDY",
+      "name": "Pagerduty Alert Source",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/4406",
+      "args": {
+        "alert_source_type": "pagerduty"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgx",
+        "name": "Required",
+        "index": 1,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUxMA",
+        "name": "Typescript-Tier 1&2"
+      },
+      "__typename": "AlertSourceUsageCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 91,
+      "totalSuccessful": 90,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzA0Mw",
+      "name": "Uses recommended version of @convoy/lib-kafka-client",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3043",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4OQ",
+        "name": "Common - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 91,
+      "totalSuccessful": 89,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpQYWNrYWdlVmVyc2lvbi8zMDk5MQ",
+      "name": "Uses @convoy/lib-config",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/30991",
+      "args": {
+        "package_name": "@convoy/lib-config",
+        "package_manager": "npm",
+        "package_constraint": "matches_version",
+        "version_constraint": {
+          "predicate": {
+            "arg": ">= 1.5.0",
+            "type": "satisfies_version_constraint"
+          }
+        },
+        "missing_package_result": "failed"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4OQ",
+        "name": "Common - TypeScript Services"
+      },
+      "__typename": "PackageVersionCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 35,
+      "totalSuccessful": 34,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTcwMw",
+      "name": "No Old Model Declaration",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1703",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzMzMA",
+        "name": "Shipotle Component"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 91,
+      "totalSuccessful": 87,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS8xNTAzNQ",
+      "name": "API Operations are Updated from Generated Template",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/15035",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "This should trigger a node process shutdown due to unhandled promise",
+            "type": "does_not_contain"
+          }
+        },
+        "file_paths": [
+          "src/operations/increment.ts",
+          "src/tasks/DummyTask.ts",
+          "src/operations/getCount.ts"
+        ],
+        "directory_search": false,
+        "use_absolute_root": true
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4OQ",
+        "name": "Common - TypeScript Services"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 50,
+      "totalSuccessful": 45,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTU5NA",
+      "name": "No Files Are JavaScript",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1594",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzYzNw",
+        "name": "Component"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 142,
+      "totalSuccessful": 127,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTU1Mg",
+      "name": "Vulnerability Exceptions",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1552",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMw",
+        "name": "Security",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4Mw",
+        "name": "Security - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 23,
+      "totalSuccessful": 20,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS85NDE",
+      "name": "Poetry Package Management",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/941",
+      "args": {
+        "file_paths": [
+          "poetry.lock"
+        ],
+        "directory_search": false,
+        "use_absolute_root": false
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzk3Mw",
+        "name": "Common - Python"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 123,
+      "totalSuccessful": 106,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS82MTE4",
+      "name": "Use Convoy base Docker image for Node.js",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/6118",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "node-debian-bullseye-slim|node-bullseye-slim|node-bookworm-slim",
+            "type": "matches_regex"
+          }
+        },
+        "file_paths": [
+          "Dockerfile",
+          "infrastructure/Dockerfile"
+        ],
+        "directory_search": false,
+        "use_absolute_root": false
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE1NTE",
+        "name": "Build Tools Consistency (non-mobile)"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 108,
+      "totalSuccessful": 92,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODk0",
+      "name": "Uses supported version of @convoy/lib-trace",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/894",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2Mw",
+        "name": "Monitoring Best Practices - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 35,
+      "totalSuccessful": 29,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTgxOQ",
+      "name": "No Instance Methods In Models",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1819",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzMzMA",
+        "name": "Shipotle Component"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 35,
+      "totalSuccessful": 26,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTgxOA",
+      "name": "No Class Methods In Models",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1818",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzMzMA",
+        "name": "Shipotle Component"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 11,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTIxOQ",
+      "name": "ConvoyML Version",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1219",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4NA",
+        "name": "Machine Learning Models - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 11,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjU5NA",
+      "name": "Fuel Native Migration",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2594",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 11,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTIxOA",
+      "name": "Contains Model Registry ID",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1218",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4NA",
+        "name": "Machine Learning Models - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 371,
+      "totalSuccessful": 267,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpTZXJ2aWNlUHJvcGVydHkvMjk3ODI",
+      "name": "Service Tier is Defined",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/29782",
+      "args": {
+        "property": "tier_index"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": null,
+      "__typename": "ServicePropertyCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 126,
+      "totalSuccessful": 89,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODg4",
+      "name": "The service uses a recent version of Jest",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/888",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzIyMDk",
+        "name": "Testing Best Practices - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 126,
+      "totalSuccessful": 87,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTI3Ng",
+      "name": "Pushes code coverage to Coveralls",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1276",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzIyMDk",
+        "name": "Testing Best Practices - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 91,
+      "totalSuccessful": 61,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS8xMTY3",
+      "name": "README is Updated from Generated Template",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/1167",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "scaffold",
+            "type": "does_not_contain"
+          }
+        },
+        "file_paths": [
+          "README.md"
+        ],
+        "directory_search": false,
+        "use_absolute_root": true
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4OQ",
+        "name": "Common - TypeScript Services"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 10,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjQ4OA",
+      "name": "Base convoyml Docker image version",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2488",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI4NA",
+        "name": "Machine Learning Models - Python"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 108,
+      "totalSuccessful": 70,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODkx",
+      "name": "Publishes a Docker image on AWS ECR that matches the name of the service",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/891",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2Mg",
+        "name": "Release Consistency - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 88,
+      "totalSuccessful": 55,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODg5",
+      "name": "Supported by cbox",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/889",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2MQ",
+        "name": "Testing Best Practices - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 88,
+      "totalSuccessful": 54,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTE3OQ",
+      "name": "Service agent entrypoint contains health check",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1179",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2MQ",
+        "name": "Testing Best Practices - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 91,
+      "totalSuccessful": 54,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODk4",
+      "name": "Node.js version in .nvmrc matches the version in the Docker image",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/898",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4OQ",
+        "name": "Common - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 107,
+      "totalSuccessful": 60,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODk2",
+      "name": "Uses @convoy/filo-idl",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/896",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2NA",
+        "name": "RPC - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 59,
+      "totalSuccessful": 28,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vODg3",
+      "name": "The service client is covered by cbox E2E tests",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/887",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzkxNA",
+        "name": "Testing Best Practices - TypeScript Services - E2E"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 126,
+      "totalSuccessful": 54,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTExMQ",
+      "name": "Meets expected code coverage percent",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1111",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzIyMDk",
+        "name": "Testing Best Practices - TypeScript"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 163,
+      "totalSuccessful": 54,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vNjM1",
+      "name": "Uses the recommended version of TypeScript",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/635",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4Nw",
+        "name": "Build Tools Consistency"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 4,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMjU3MQ",
+      "name": "Meets expected code coverage percent",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/2571",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 1,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzM3OA",
+      "name": "Mobile P0 UI Test Coverage",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3378",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 1,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vNTc5OA",
+      "name": "Mobile UI Test Disabled/Skipped Check",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/5798",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzQ1Ng",
+      "name": "Dialog Migration",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3456",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 15,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzQ1NQ",
+      "name": "Scene Migration",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3455",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzU2Ng",
+        "name": "chalupa-domain"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vNTI2MA",
+      "name": "Uses the recommended version of '@convoy/fuel'",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/5260",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUyOQ",
+        "name": "Web Platform - Lynx apps + Template"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTQ0MDk",
+      "name": "Uses the recommended version of '@convoy/lynx'",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/14409",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgy",
+        "name": "Current Goal",
+        "index": 2,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUyOQ",
+        "name": "Web Platform - Lynx apps + Template"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 163,
+      "totalSuccessful": 155,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzE0NA",
+      "name": "CircleCI Next-Gen image",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3144",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzE4Nw",
+        "name": "Build Tools Consistency"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 25,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpQYWNrYWdlVmVyc2lvbi8zMDk5NA",
+      "name": "Uses Recommended Version of Cypress",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/30994",
+      "args": {
+        "package_name": "cypress",
+        "package_manager": "npm",
+        "package_constraint": "matches_version",
+        "version_constraint": {
+          "predicate": {
+            "arg": ">= 8.0.0",
+            "type": "satisfies_version_constraint"
+          }
+        },
+        "missing_package_result": "failed"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUyOQ",
+        "name": "Web Platform - Lynx apps + Template"
+      },
+      "__typename": "PackageVersionCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 173,
+      "totalSuccessful": 150,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvR3JlcC8zMDk5Mg",
+      "name": "RedisGuard Should Not Be Used",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/30992",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "RedisGuard",
+            "type": "does_not_contain"
+          }
+        },
+        "file_paths": [
+          "**/*.ts"
+        ],
+        "directory_search": false
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI5OQ",
+        "name": "Common - TypeScript Project"
+      },
+      "__typename": "RepositoryGrepCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 371,
+      "totalSuccessful": 295,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vNTU5MQ",
+      "name": "Terraform Module Version",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/5591",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": null,
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 59,
+      "totalSuccessful": 45,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTUzOA",
+      "name": "Can instrument E2E test coverage",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/1538",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzkxNA",
+        "name": "Testing Best Practices - TypeScript Services - E2E"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 16,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS8xNDQyMA",
+      "name": "Has E2E Tests Enabled",
+      "owner": null,
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/14420",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "&skip_e2e_tests false",
+            "type": "contains"
+          }
+        },
+        "file_paths": [
+          ".circleci/config.yml"
+        ],
+        "directory_search": false,
+        "use_absolute_root": true
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUzNw",
+        "name": "Web Platform - Lynx"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 173,
+      "totalSuccessful": 92,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvR3JlcC8zMDk5Mw",
+      "name": "Uses Yarn Berry Package Manager",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/30993",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "__metadata",
+            "type": "contains"
+          }
+        },
+        "file_paths": [
+          "**/yarn.lock"
+        ],
+        "directory_search": false
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI5OQ",
+        "name": "Common - TypeScript Project"
+      },
+      "__typename": "RepositoryGrepCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 173,
+      "totalSuccessful": 75,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpQYWNrYWdlVmVyc2lvbi8zMTAwMA",
+      "name": "Deprecate Sentry",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/31000",
+      "args": {
+        "package_name": "@sentry/node",
+        "package_manager": "npm",
+        "package_constraint": "does_not_exist"
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI5OQ",
+        "name": "Common - TypeScript Project"
+      },
+      "__typename": "PackageVersionCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 240,
+      "totalSuccessful": 50,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMzk3MQ",
+      "name": "Does not have deprecated docker sidecar images",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/3971",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzEwMjk",
+        "name": "Excludes Lynx apps & Frameworks & ML"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 86,
+      "totalSuccessful": 9,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpSZXBvRmlsZS8xMDI2",
+      "name": "Health Check includes DB check",
+      "owner": {
+        "__typename": "Team"
+      },
+      "enabled": true,
+      "enableOn": null,
+      "reportHref": "/reports/check/1026",
+      "args": {
+        "contents": {
+          "predicate": {
+            "arg": "SELECT 1",
+            "type": "contains"
+          }
+        },
+        "file_paths": [
+          "src/express/status.ts",
+          "src/handlers/status.ts",
+          "src/operations/status.ts",
+          "src/status/status.ts",
+          "app/actions/status.ts"
+        ],
+        "directory_search": false,
+        "use_absolute_root": true
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzMwMA",
+        "name": "Database - Typescript Services"
+      },
+      "__typename": "RepositoryFileCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 88,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpDdXN0b20vMTQ5OTA",
+      "name": "Supported by Rig (Clone)",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/14990",
+      "args": null,
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvNzIw",
+        "name": "Consistency",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzI2MQ",
+        "name": "Testing Best Practices - TypeScript Services"
+      },
+      "__typename": "CustomCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  },
+  {
+    "stats": {
+      "total": 28,
+      "totalSuccessful": 0,
+      "__typename": "Stats"
+    },
+    "check": {
+      "id": "Z2lkOi8vb3BzbGV2ZWwvQ2hlY2tzOjpIYXNSZWNlbnREZXBsb3kvNjkzMg",
+      "name": "Service Has Recent Deploy within 90 days",
+      "owner": null,
+      "enabled": false,
+      "enableOn": null,
+      "reportHref": "/reports/check/6932",
+      "args": {
+        "days": 90
+      },
+      "level": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvTGV2ZWwvMTgz",
+        "name": "On-Deck",
+        "index": 3,
+        "__typename": "Level"
+      },
+      "category": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvQ2F0ZWdvcnkvMzMx",
+        "name": "Reliability",
+        "container": {
+          "id": "Z2lkOi8vb3BzbGV2ZWwvUnVicmljLzQ2",
+          "name": "Maturity Rubric",
+          "href": "/rubrics",
+          "__typename": "Rubric"
+        },
+        "__typename": "Category"
+      },
+      "filter": {
+        "id": "Z2lkOi8vb3BzbGV2ZWwvRmlsdGVyLzUzNw",
+        "name": "Web Platform - Lynx"
+      },
+      "__typename": "HasRecentDeployCheck"
+    },
+    "__typename": "ScopedStatsCheck"
+  }
+]
